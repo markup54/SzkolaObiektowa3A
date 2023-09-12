@@ -11,11 +11,15 @@ public class Main {
         System.out.println(osoba2);
          */
 
-        Osoba uczen1P1 = new Uczen("Emil","Smalandzki",12);
+        Uczen uczen1P1 = new Uczen("Emil","Smalandzki",12);
         Uczen uczen1P2 = new Uczen("Emilia","Pragmatyczna",9);
         System.out.println(uczen1P2);
         System.out.println(uczen1P1);
         Nauczyciel nauczycielSn = new Nauczyciel("Sebastian","Nadwiślański", "język polski","wf");
         System.out.println(nauczycielSn);
+
+        Klasa klasa2AC = new Klasa("klasa_ac",uczen1P2, uczen1P1);
+        System.out.println(klasa2AC);
+
     }
 }
