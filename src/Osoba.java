@@ -1,4 +1,6 @@
-public class Osoba {
+public abstract class Osoba {
+    //klasa abstrakcyjna nie można utworzyć obiektu tej klasy
+    //klasa jest wykorzystywana jako klasa bazowa
     private String imie;
     private String nazwisko;
     private int wiek;

@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        Osoba osoba = new Osoba();
+        /*Osoba osoba = new Osoba();
         osoba.setImie("Jan");
         System.out.println("Imie naszej osoby "+osoba.getImie());
         osoba.setWiek(-20);
@@ -9,8 +9,9 @@ public class Main {
 
         Osoba osoba2 = new Osoba("Ola","Starsza",19);
         System.out.println(osoba2);
+         */
 
-        Uczen uczen1P1 = new Uczen("Emil","Smalandzki",12);
+        Osoba uczen1P1 = new Uczen("Emil","Smalandzki",12);
         Uczen uczen1P2 = new Uczen("Emilia","Pragmatyczna",9);
         System.out.println(uczen1P2);
         System.out.println(uczen1P1);
