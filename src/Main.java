@@ -18,8 +18,10 @@ public class Main {
         System.out.println(uczen1P1);
         Nauczyciel nauczycielSn = new Nauczyciel("Sebastian","Nadwiślański", "język polski","wf");
         System.out.println(nauczycielSn);
+Uczen uczen3 = new Uczen("Albert","Einstein",6);
 
         Klasa klasa2AC = new Klasa("klasa_ac",uczen1P2, uczen1P1);
+        klasa2AC.dodajUczniaDoKlasy(uczen3);
         System.out.println(klasa2AC);
         Klasa klasa3AC = new Klasa(klasa2AC);
         System.out.println(klasa3AC);
