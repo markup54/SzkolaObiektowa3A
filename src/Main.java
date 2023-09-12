@@ -13,6 +13,7 @@ public class Main {
 
         Uczen uczen1P1 = new Uczen("Emil","Smalandzki",12);
         Uczen uczen1P2 = new Uczen("Emilia","Pragmatyczna",9);
+        uczen1P2.dyzuruj();
         System.out.println(uczen1P2);
         System.out.println(uczen1P1);
         Nauczyciel nauczycielSn = new Nauczyciel("Sebastian","Nadwiślański", "język polski","wf");
@@ -27,5 +28,6 @@ public class Main {
                 klasa3AC,
                 "technika","matematyka","fizyka");
         System.out.println(wychowawca);
+        Szkola zs10 = Szkola.getSzkola();
     }
 }
